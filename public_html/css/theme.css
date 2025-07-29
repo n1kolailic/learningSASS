@@ -330,6 +330,12 @@ html {
   font-size: 10px;
 }
 
+body {
+  font-size: 1.6rem;
+  color: #000;
+  background-color: #eee;
+}
+
 .container {
   margin: 0 auto;
   width: 95%;
@@ -338,5 +344,29 @@ html {
 
 header {
   padding: 30px 0;
+  background-color: #8a059e;
+}
+
+header a {
+  color: #fff;
+}
+
+.about-section {
+  padding: 30px 0;
+  background: #fff;
+}
+
+.comment-section {
+  padding: 30px 0;
+  background: #fff;
+}
+
+footer {
+  padding: 30px 0;
+  background-color: #8a059e;
+}
+
+footer a, footer p {
+  color: #fff;
 }
 /*# sourceMappingURL=theme.css.map */

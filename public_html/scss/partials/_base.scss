@@ -1,3 +1,8 @@
+$default-text-color: $black;
+$default-bg-color: $grey;
+
+
+
 img {
     max-width: 100%;
 }
@@ -17,8 +22,15 @@ html {
     font-size: 10px;
 }
 
+body {
+    font-size: 1.6rem;
+    color: $default-text-color;
+    background-color: $default-bg-color;
+}
+
 .container {
     margin: 0 auto;
     width: 95%;
     width: 1200px;
 }
+
