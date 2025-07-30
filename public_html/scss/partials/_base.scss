@@ -1,5 +1,13 @@
+
+
 $default-text-color: $black;
 $default-bg-color: $grey;
+$default-font: $rubik;
+
+$headings-font: $josefin;
+$default-weight: $font-regular;
+$heading-weight: $font-bold;
+$heading-color: $purple;
 
 
 
@@ -26,6 +34,7 @@ body {
     font-size: 1.6rem;
     color: $default-text-color;
     background-color: $default-bg-color;
+    font-family: $default-font;
 }
 
 .container {
@@ -34,3 +43,9 @@ body {
     width: 1200px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: $default-font;
+    font-weight: $heading-weight;
+    color: $heading-color;
+
+}
