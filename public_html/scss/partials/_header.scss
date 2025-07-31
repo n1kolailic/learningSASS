@@ -32,7 +32,7 @@ header {
                     font-weight: $font-bold;
 
                     &:hover, &.active {
-                        color: $nav-link-hover;
+                        color: complement($header-bg);
                     }
                 }
    
