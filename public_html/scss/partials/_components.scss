@@ -1,0 +1,54 @@
+$btn-default: $purple;
+$btn-default-color: $white;
+$btn-dark-color: $black;
+
+$btn-danger: $red;
+
+$btn-succes: $green;
+
+$btn-warning: $orange;
+
+$btn-info :$blue;
+
+
+%btn {
+    display: inline-block;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.btn-default {
+    @extend %btn;
+    background-color: $btn-default;
+    color: $btn-default-color;
+}
+
+.btn-danger {
+    @extend %btn;
+    background-color: $btn-danger;
+    color: $btn-default-color;
+}
+
+.btn-succes {
+    @extend %btn;
+    background-color: $btn-succes;
+    color: $btn-default-color;
+}
+
+.btn-warning {
+    @extend %btn;
+    background-color: $btn-warning;
+    color: $btn-default-color;
+}
+
+.btn-info {
+    @extend %btn;
+    background-color: $btn-info;
+    color: $btn-default-color;
+}
