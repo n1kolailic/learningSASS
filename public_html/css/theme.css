@@ -469,6 +469,36 @@ header nav ul li a:hover, header nav ul li a.active {
   background: #fff;
 }
 
+.course-section {
+  padding: 50px 0;
+}
+.course-section table {
+  border: 1px solid #000;
+  border-collapse: collapse;
+  width: 100%;
+}
+.course-section table caption {
+  text-align: left;
+  font-style: italic;
+}
+.course-section table th, .course-section table td {
+  border: 1px solid #000;
+  padding: 15px 10px;
+}
+.course-section table thead {
+  background: #8a059e;
+}
+.course-section table thead th {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.course-section table tbody tr:nth-of-type(even) {
+  background-color: #fff;
+}
+.course-section table tbody tr:hover {
+  background-color: #c8c8c8;
+}
+
 footer {
   padding: 30px 0;
   background-color: #8a059e;
