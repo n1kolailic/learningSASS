@@ -18,7 +18,7 @@ $btn-info :$blue;
    
   //  @include radius(5px);
 
-  @include customRadius(5px, 50%, 5px, 50%);
+  @include customRadius(5px, 0, 5px, 0);
 
     cursor: pointer;
     
